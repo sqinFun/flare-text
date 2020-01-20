@@ -12,9 +12,15 @@
 <body>
 
   <section class="slide">
-    <div class="text-wrapper">
-      <h1 class="text">Lorem ipsum dolor sit.</h1>
-    </div>
+    <svg class="svg">
+      <defs>
+        <linearGradient id="gradient">
+          <stop class="color-start" offset="0%"/>
+          <stop class="color-end" offset="100%"/>
+        </linearGradient>
+      </defs>
+      <text x="50%" y="50%" fill="url(#gradient)" class="text">Lorem ipsum dolor sit amet.</text>
+    </svg>
   </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
